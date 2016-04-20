@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/* global */
+.block {display:block;}
+.l {float:left;}
+.r {float:right;}
+.tl {text-align:left;}
+.tc {text-align:center;}
+.tr {text-align:right;}
+.vt {vertical-align:top;}
+.vm {vertical-align:middle;}
+.vb {vertical-align:bottom;}
+/* index */
+#carlist {border-bottom:1px solid #ccc;}
+#citynameshow, .index-dz-dk .index-dz-rmcc li {cursor:pointer;}
+.index-dz-dk {cursor:default;}
+.index-dz-dk .index-dz-rmcc {padding-top:0;}
+.index-dz-dk .index-qgdz .index-sxzm {width:auto;}
+.index-dz-dk .index-qgdz ul {width:360px;}
+.index-dz-dk .index-qgdz li {margin-left:10px; padding:0 5px; cursor:pointer;}
+.index-dz-dk .index-qgdz .index-rmxz {color:#fff; background-color:#ff7108;}
+#citylist {height:105px; padding-top:15px; overflow:hidden;}
+#citylist .mCSB_inside .mCSB_container {margin-right:4px;}
+.index-nav, .index-nav2 {*left:0;position: fixed;}
+
+.index-nav2 {
+    background-color: rgba(8, 15, 23, 1);
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+}
+.header {background:none; overflow:hidden; z-index:0;}
+.kv-banner {max-width:1920px; margin:0 auto; position:relative; z-index:0;  height: 100%;}
+.kv-banner ul {width:100%;  height: 100%;}
+.kv-banner li {width:100%; overflow:hidden;}
+.kv-banner img {display:block; margin:0 auto; left:50%; margin-left:-840px; position:relative}
+.kv-yq {    padding: 0;  left: 50%;  position: absolute;  top: 90%;  z-index: 1;}
+
+.kv-yq .curr {width:13px; height:13px; background:#ff7800; border-radius:6px; margin-top:-1px;}
+.kv-jt {z-index:1;}
+.kv-jt li {cursor:pointer;}
+.mdzs-cycle {width:1180px; height:218px; overflow:hidden; z-index:0;}
+.pp-cycle {width:710px; height:294px; overflow:hidden; float:left;}
+.index-pp-xz img {
+    height: 25px;
+
+}
+.index-nf {margin-top:15px;}
+#date_slt, .index-nf li, .index-yf li {cursor:pointer;}
+.rq-cycle {float:left; width:100%; height:144px; overflow:hidden;}
+
+/* baoyang */
+.maintenance-fication li {cursor:pointer;}
+.variety-select {display:none;}
+.variety .variety-select {display:block;}
+.jiage b {color:#000; font-size:24px; font-weight:normal;}
+.variety .jiage b {color:#ff7108; font-size:24px; font-weight:bold;}
+.packages-contents {height:auto; padding-bottom:16px;}
+.maintenance2_right {width:512px; height:250px; overflow:hidden; position:relative;}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background-color:#ccc !important; width:8px; }
+.mCSB_scrollTools .mCSB_draggerRail {background-color:transparent;}
+.maintenance2-sjd li, .maintenance2-zffs li {cursor:pointer;}
+.maintenance2-sjd .yueman {cursor:default;}
+/*.maintenance2-sjd .discount {margin:40px 0 0 -139px; left:auto; top:auto;}*/
+.labeltext {position:relative;}
+.labeltext input {width:100%; height:26px; font-size:14px; text-align:left; border:none;}
+.labeltext label {position:absolute; left:0;/*left:15px;*/ top:0; line-height:26px; cursor:text; color:#7f7f7f;}
+/*.maintenance4-lc .labeltext {margin-top:-4px;}*/
+
+/* car popup */
+.window .item {cursor:pointer;}
+.window-qc {overflow:hidden; width:953px;}
+.window .mCSB_inside .mCSB_container {margin-right:15px;}
+.window-cxxz01 {height:160px;}
+#ui_car_model {height:165px;}
+.window-qby {margin-top:35px;}
+
+/* login */
+.registered-tknr {width:958px; height:400px; overflow:hidden;}
+#searchcity{border-color:#ff7108; border-width:1px;  width: 90%;width: 435px;height: 23px;display: none}
+/* pinpai */
+.index-xzdp {width:332px; height:416px; margin-top:15px; overflow:hidden;}
+.index-xzdp-lb {margin-top:0; margin-bottom:15px;}
+/* member center */
+.byjl_menu_l ul li a.current { color:#ff7108; border-left: solid 3px #ff7108;}
+.recording-dwc li a {color:#000; display:block;}
+.recording-dwc li a:hover{color:#ff7108}
+.recording-dwc .recording-down a, .recording-dwc .recording-ywc a {color:#ff7108;}
+.maintenance2-tb2 em{width:22px;display: block;height: 23px;margin-right: 13px;float: left;}
+.maintenance2-bjys em.paymentpay{background: url("../images/maintenance31_03.jpg");}
+.maintenance2-bjys em.wechat{background: url("../images/maintenance31_05.jpg");}
+.maintenance2-bjys em.fav{background: url("../images/maintenance31_07.jpg");}
+.maintenance2-bjys em.car{background: url("../images/maintenance31_11.jpg");}
+ em.paymentpay{background: url("../images/maintenance3_11.jpg");}
+ em.wechat{background: url("../images/maintenance3_13.jpg");}
+ em.fav{background: url("../images/maintenance3_15.jpg");}
+ em.car{background: url("../images/maintenance3_17.jpg");}
+
+
+.timetc{height: 231px; top:50px;}
+/*<img src="images/maintenance31_03.jpg" /><img src="images/maintenance31_05.jpg" /><img src="images/maintenance31_07.jpg" /><img src="images/maintenance31_11.jpg" />*/
